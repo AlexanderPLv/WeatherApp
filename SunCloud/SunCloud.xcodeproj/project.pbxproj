@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A02B5BA22BF8932003CF96D /* WeatherReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02B5B922BF8931003CF96D /* WeatherReport.swift */; };
 		9A4775DC22BD239300B87593 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4775DB22BD239300B87593 /* MainVC.swift */; };
 		9A4775DE22BD24CA00B87593 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4775DD22BD24CA00B87593 /* WeatherVC.swift */; };
 		9A5891CF22BD092F00D3F5DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5891CE22BD092F00D3F5DF /* AppDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A02B5B922BF8931003CF96D /* WeatherReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReport.swift; sourceTree = "<group>"; };
 		9A4775DB22BD239300B87593 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		9A4775DD22BD24CA00B87593 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		9A5891CB22BD092F00D3F5DF /* SunCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 				9A5891DA22BD093400D3F5DF /* Info.plist */,
 				9A4775DB22BD239300B87593 /* MainVC.swift */,
 				9A4775DD22BD24CA00B87593 /* WeatherVC.swift */,
+				9A02B5B922BF8931003CF96D /* WeatherReport.swift */,
 			);
 			path = SunCloud;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				9A5891CF22BD092F00D3F5DF /* AppDelegate.swift in Sources */,
 				9A4775DE22BD24CA00B87593 /* WeatherVC.swift in Sources */,
+				9A02B5BA22BF8932003CF96D /* WeatherReport.swift in Sources */,
 				9A4775DC22BD239300B87593 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

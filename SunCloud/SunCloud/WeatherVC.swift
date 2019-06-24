@@ -15,10 +15,19 @@ class WeatherVC: UIViewController {
     @IBOutlet weak var degreesLabel: UILabel!
     @IBOutlet weak var weatherDescriptionLabel: UILabel!
     
-
+    var weatherReport: WeatherReport?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let weatherReport = weatherReport {
+            
+            cityLabel.text = weatherReport.list.first?.city
+            degreesLabel.text = weatherReport.list.first?.degreesCelsius
+            weatherDescriptionLabel.text = weatherReport.list.first?.description
+            weatherImage.image = weatherReport.weatherImage
+            
+        }
         
     }
     
